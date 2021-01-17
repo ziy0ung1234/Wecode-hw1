@@ -1,0 +1,125 @@
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSqure@1.0/nanumsquare.css');
+    
+    body {
+            background-color: #FFF;
+            margin: 0 auto;
+}
+    header {
+            background-color: #0d0d0e;
+            border-bottom: 1px solid #030303;
+            opacity: 80%;
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+    }
+    strong {
+          color: rgb(61, 61, 61);
+    }    
+    ul {
+            margin: 30px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+    li {
+            color: #FFF;
+            font-family: 'Oswald', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: inline-block;
+            width: 80px;
+        } 
+    li:hover {
+            color: #DBE9EE;
+            } 
+    .hello {
+            background-color: #f7e7c7;
+            box-sizing: border-box;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            top: 50px;
+            z-index:20;
+        }  
+    #banner {
+            background-image: url("main.jpg");
+            background-size: cover;
+            background-position: bottom center;
+            height: 700px;
+            max-width: 1000px;
+            display : block;
+            margin : 150px auto;
+            
+            }   
+    #banner .content h1 {
+            background-color: #f7e7c7 ;
+            color:black;
+            font-size: 25px;
+            border: 1px ;
+            border-radius: 10px;
+            position: relative;
+            top: 400px;
+            width: 350px;
+            padding:30px;
+            margin: 0 auto;
+            
+            
+            
+}   
+    h1 {
+            color: white;
+            font-size: 36px;
+            font-weight: 300;
+            text-align: center;
+    }
+    #reason {
+            
+    }
+    .reason{ background-color: #f7e7c7;
+            box-sizing: border-box;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            top: 600px;
+            margin: 200px auto;
+            padding: 150px;
+            
+      
+    }
+    #card {
+      
+            display: grid;
+            grid-template-columns: repeat(3,350px);
+            grid-template-rows: repeat(3,350px);
+            text-align: center;
+            margin: 300px auto;
+            padding:0%;
+            position: relative;
+            top: 500px;
+            
+            
+    }
+
+   #card img {
+            width: 300px;
+            height: 300px;
+            
+   }
+
+   footer {
+            background-color: #0d0d0e;
+            width: 100%;
+            
+   }
+   .footer {
+            color: white;
+            font-size: 20px;
+            font-weight: 300;
+            text-align: center;
+            padding: 10px 100px;
+   }
+   .footer strong {
+            color: white;
+   }
