@@ -4,35 +4,163 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Introduction_wecode 18 jiyoung</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="">
+  
+  <style>
+
+     body {
+            background-color: #FFF;
+            margin: 0 auto;
+     }
+     nav {
+            background-color: #0d0d0e;
+            border-bottom: 1px solid #030303;
+            opacity: 80%;
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+    }
+    .m a:hover {
+            color:#f7e7c7;
+    }
+    strong {
+            color: rgb(61, 61, 61);
+    }    
+    ul {
+            margin: 30px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+    li {
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: inline-block;
+            width: 80px;
+        } 
+    strong {
+            color: rgb(61, 61, 61);
+    }    
+    .header {
+            background-color: #f7e7c7;
+            box-sizing: border-box;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            top: 50px;
+            z-index:20;
+    }
+    .footer {
+            background-color: #f7e7c7;
+            box-sizing: border-box;
+            padding: 20px;
+            text-align:center;
+            width: 100%;
+            position: relative;
+            top: 50px;
+    }
+    #banner {
+            background-image: url("main.jpg");
+            background-size: cover;
+            background-position: bottom center;
+            height: 700px;
+            max-width: 1000px;
+            display : block;
+            margin : 150px auto;
+            
+            }   
+    #banner .content h1 {
+            background-color: #f7e7c7 ;
+            color:black;
+            font-size: 18px;
+            border: 1px ;
+            border-radius: 10px;
+            position: relative;
+            top: 400px;
+            width: 350px;
+            padding:30px;
+            margin: 0 auto;
+    }
+    h1 {
+            color: white;
+            font-size: 36px;
+            font-weight: 300;
+            text-align: center;
+    }
+    #reason {
+            background-color: #f7e7c7;
+            box-sizing: border-box;
+            padding: 100px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            top: 50px;
+            
+    }
+   
+    #love h1{
+            color: rgb(5, 5, 5);
+            font-size: 36px;
+            text-align: center;
+            
+            top: 400px;
+            width: 350px;
+            padding:30px;
+            
+    }
+
+    #card {
+      
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: repeat(3,350px);
+            grid-template-rows: repeat(3,350px);
+            text-align: center;
+            margin: 300px auto;
+            padding: auto;
+            position: relative;
+            
+    }
+    #card img {
+            width: 300px;
+            height: 300px;
+            
+   }
+
+  </style>
 </head>
 <body>
-  <header>
+  <nav>
     <ul> 
       <li>Home</li>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-
+      <li class="m"><a href="#reason">진로</a></li>
+      <li class="m"><a href="#card">좋아하는것</a></li>
     </ul>
-  </header>
+  </nav>
 
-  <div class="hello">
+  <div class="header">
     <h1><strong>HELLO</strong> I'm Jiyoung</h1>
     <p>안녕하세요 반갑습니다 wecode 18기 한지영 입니다</p>
   </div>
-
+  
   <div id="banner">
     <div class="content">
       <h1>제가 궁금하시다면 스크룰 바를 <strong>아래</strong>로 내려주세요</h1>
     </div>
+  </div>
 
   <div id="reason">
     <div class="reason">
       <h2>비전공자에서 개발자를 꿈꾸게 된 이유</h2>
-      <p>SPA 브랜드에서 잠시 일하면서 너무 비효율 적이고 구식이었던 회사 툴때문에 몸이 고생하면서 꼭 도움이 될만한 툴을 만들어 보고 싶다고 생각해 개발자로 진로를 바꾸게 되었습니다.</p>
+      <p>SPA 브랜드에서 일하면서 너무 비효율적이고 구식이었던 회사 툴때문에 몸이 고생하면서<br> 나중에 꼭 도움이 될만한 툴을 만들어 보고 싶다고 생각이 들고 흥미가 생겨 개발자로 진로를 바꾸게 되었습니다.</p>
+      <br><br>
+      <h2>Frontend or Backend</h2>
+      <p>아직 진로를 정하진 않았으나 백엔드가 제 성향과 해보고 싶었던 것과 부합하는 것 같아서 생각중입니다.</p>
+      
     </div>
-
   </div>
 
   <section id="card">
@@ -57,11 +185,9 @@
     </div>
   </section>
 
-  <footer>
-    <div class="footer">
-      <h1><strong>THANK YOU</strong></h1>
+  <div class="footer">
+    <h1><strong>THANK YOU</strong></h1>
       <p>감사합니다</p>
   </div>
-  </footer>
 </body>
 </html>
